@@ -4,31 +4,47 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-cubes"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
-        <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
-        </p>
+        <h1>Hong Muchan</h1>
+        <br/>
+        <h2 className="header_title">
+            Welcome to my portfolio
+        </h2>
+        <ul className="icons">
+            <li className="blue">
+              <a
+                target="blank"
+                href="https://twitter.com/HongMuchan"
+                className="icon fa-twitter"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+              target='blank'
+               href="https://qiita.com/HongMuchan" className="icon fa-search">
+                <span className="label">Qiita</span>
+              </a>
+            </li>
+            <li>
+              <a
+                target='blank' 
+                href="https://github.com/HongMuchang"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
       </div>
     </div>
+
     <nav>
       <ul>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
-          </button>
-        </li>
         <li>
           <button
             onClick={() => {

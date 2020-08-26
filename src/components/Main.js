@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import muchan from '../images/muchan.png'
-import web from '../images/web.png'
-import book from '../images/book.png'
-import tenki from '../images/tenki.png'
-import blog from '../images/blog.png'
+import muchan from '../images/muchan.jp2'
+import web from '../images/web.jp2'
+import book from '../images/book.jp2'
+import tenki from '../images/tenki.jp2'
+import blog from '../images/blog.jp2'
 
 
 

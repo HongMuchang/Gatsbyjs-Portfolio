@@ -5,8 +5,7 @@ import web from '../images/web.png'
 import book from '../images/book.png'
 import tenki from '../images/tenki.png'
 import blog from '../images/blog.png'
-
-
+import Trello from '../images/Trello.png'
 
 class Main extends React.Component {
   render() {
@@ -32,33 +31,94 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-
           <h2 className="major">Work</h2>
+
+          <h3 className="work_title">
+            <span>
+              <a
+                target="blank"
+                href="https://github.com/HongMuchang/Vue-Trello"
+                className="icon fa-link blue"
+              >
+                [Trello風todoリスト]
+              </a>
+            </span>
+          </h3>
+          <div className="content">
+            <p className="work_p">
+              (　Vue　/　Vuex　/　Vuetify　/　draggable　)
+            </p>
+            <p className="work_img">
+              <img src={Trello} alt="" className="box" />
+            </p>
+          </div>
+
           <h3 className="work_title">[掲示板付きWebサイト]</h3>
           <div className="content">
-            <p className="work_p">(　HTML　/　CSS　/　JS　/　PHP　/　MYSQL　/　GoogleMapAPI　)</p>
-            <p className="work_img imgs"><img src={web} alt="" className="box" /></p>
+            <p className="work_p">
+              (　HTML　/　CSS　/　JS　/　PHP　/　MYSQL　/　GoogleMapAPI　)
+            </p>
+            <p className="work_img imgs">
+              <img src={web} alt="" className="box" />
+            </p>
           </div>
 
-          <h3 className="work_title">[Laravelでブログ(CRUD)]<span><a target='blank' href="https://github.com/HongMuchang/Laravel-Blog" className="icon fa-link blue"></a></span></h3>
+          <h3 className="work_title">
+            <span>
+              <a
+                target="blank"
+                href="https://github.com/HongMuchang/Laravel-Blog"
+                className="icon fa-link blue"
+              >
+                {' '}
+                [Laravelでブログ(CRUD)]
+              </a>
+            </span>
+          </h3>
           <div className="content">
             <p className="work_p">(　HTML　/　CSS　/　PHP　/　Laravel　)</p>
-            <p className="work_img"><img src={blog} alt="" className="box" /></p>
+            <p className="work_img">
+              <img src={blog} alt="" className="box" />
+            </p>
           </div>
 
-          <h3 className="work_title">[図書管理システム]<span><a target='blank' href="https://github.com/HongMuchang/Book-management-system" className="icon fa-link blue"></a></span></h3>
+          <h3 className="work_title">
+            <span>
+              <a
+                target="blank"
+                href="https://github.com/HongMuchang/Book-management-system"
+                className="icon fa-link blue"
+              >
+                [図書管理システム]
+              </a>
+            </span>
+          </h3>
           <div className="content">
             <p className="work_p">(　HTML　/　CSS　/　PHP　/　MYSQL　)</p>
-            <p className="work_img"><img src={book} alt="" className="box" /></p>
+            <p className="work_img">
+              <img src={book} alt="" className="box" />
+            </p>
           </div>
 
-          <h3 className="work_title">[天気APIで世界天気を取得]<span><a target='blank' href="https://github.com/HongMuchang/Weather-API" className="icon fa-link blue"></a></span></h3>
+          <h3 className="work_title">
+            <span>
+              <a
+                target="blank"
+                href="https://github.com/HongMuchang/Weather-API"
+                className="icon fa-link blue"
+              >
+                [天気APIで世界天気を取得]
+              </a>
+            </span>
+          </h3>
           <div className="content">
-            <p className="work_p">(　HTML　/　CSS　/　JS　/　OpenWeatherMapAPI　)</p>
-            <p className="work_img"><img src={tenki} alt="" className="box" /></p>
+            <p className="work_p">
+              (　HTML　/　CSS　/　JS　/　OpenWeatherMapAPI　)
+            </p>
+            <p className="work_img">
+              <img src={tenki} alt="" className="box" />
+            </p>
           </div>
-
-          
 
           {close}
         </article>
@@ -78,22 +138,28 @@ class Main extends React.Component {
             <div className="contents">
               <h3 className="content_title">Profile</h3>
               <p className="border">
-                <strong>HongMuchan</strong>（むちゃん）<br/>
-                関西出身のバイリンガル専門学生。<br/>
+                <strong>HongMuchan</strong>（むちゃん）
+                <br />
+                関西出身のバイリンガル専門学生。
+                <br />
                 現在はフロントエンドを目指してます！！
               </p>
 
               <h3 className="content_title">SKILLS</h3>
               <p className="border">
-               言語:HTML、CSS、PHP、MySQL、Javascript<br/>
-                クラウド:AWS、Docker などを勉強中。<br/>
-                最近はクラウド周りの勉強をしつつ、<br/>
-              JSのフレームワークやLaravelを独学で勉強中です。
+                言語:HTML、CSS、PHP、MySQL、Javascript
+                <br />
+                クラウド:AWS、Docker などを勉強中。
+                <br />
+                最近はクラウド周りの勉強をしつつ、
+                <br />
+                JSのフレームワークやLaravelを独学で勉強中です。
               </p>
               <h3 className="content_title">Award</h3>
 
               <p className="border">
-                ・3校合同コンテスト 銀賞　(2019.10.31)<br/>
+                ・3校合同コンテスト 銀賞　(2019.10.31)
+                <br />
                 ・HAL EVENT WEEK　 金賞　(2020.03.05)
               </p>
             </div>
@@ -132,7 +198,7 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          
+
           {close}
         </article>
       </div>

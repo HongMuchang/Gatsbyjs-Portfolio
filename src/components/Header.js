@@ -9,37 +9,37 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Hong Muchan</h1>
-        <br/>
-        <h2 className="header_title">
-            Welcome to my portfolio
-        </h2>
+        <br />
+        <h2 className="header_title">Welcome to my portfolio</h2>
         <ul className="icons">
-            <li className="blue">
-              <a
-                target="blank"
-                href="https://twitter.com/HongMuchan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a
-              target='blank'
-               href="https://qiita.com/HongMuchan" className="icon fa-search">
-                <span className="label">Qiita</span>
-              </a>
-            </li>
-            <li>
-              <a
-                target='blank' 
-                href="https://github.com/HongMuchang"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+          <li className="blue">
+            <a
+              target="blank"
+              href="https://twitter.com/HongMuchan"
+              className="icon fa-twitter"
+            >
+              <span className="label">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a
+              target="blank"
+              href="https://qiita.com/HongMuchan"
+              className="icon fa-search"
+            >
+              <span className="label">Qiita</span>
+            </a>
+          </li>
+          <li>
+            <a
+              target="blank"
+              href="https://github.com/HongMuchang"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
 

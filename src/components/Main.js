@@ -46,7 +46,7 @@ class Main extends React.Component {
             </span>
           </h3>
           <div className="content">
-            <p className="work_p">(　React　/　axios　/　unsplashAPI　)</p>
+            <p className="work_p">(　React　/　axios　/　UnsplashAPI　)</p>
             <p className="work_img">
               <img src={unsplashAPI} alt="" className="box" />
             </p>

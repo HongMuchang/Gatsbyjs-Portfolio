@@ -39,6 +39,15 @@ const Header = props => (
               <span className="label">GitHub</span>
             </a>
           </li>
+          <li className="skyblue">
+            <a
+              target="blank"
+              href="https://note.com/muchang0824"
+              className="icon fa-clipboard"
+            >
+              <span className="label">note</span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

@@ -6,7 +6,7 @@ import book from '../images/book.png'
 import tenki from '../images/tenki.png'
 import blog from '../images/blog.png'
 import Trello from '../images/Trello.png'
-import unsplashAPI from '../images/unsplashAPI.png'
+import API from '../images/unsplashAPI.png'
 
 class Main extends React.Component {
   render() {
@@ -33,33 +33,43 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-
-          <h3 className="work_title">
+          {/* -------------------------------------- */}
+          <h3 className="work_title_github">
             <span>
               <a
                 target="blank"
                 href="https://github.com/HongMuchang/Unsplash-image-search-app"
-                className="icon fa-link blue"
+                className="icon"
               >
                 [画像検索アプリ]
+                <a
+                  target="blank"
+                  href="https://github.com/HongMuchang"
+                  className="icon fa-github-square githubs"
+                ></a>
               </a>
             </span>
           </h3>
           <div className="content">
             <p className="work_p">(　React　/　axios　/　UnsplashAPI　)</p>
             <p className="work_img">
-              <img src={unsplashAPI} alt="" className="box" />
+              <img src={API} alt="" className="box" />
             </p>
           </div>
-
-          <h3 className="work_title">
+          {/* -------------------------------------- */}
+          <h3 className="work_title_github">
             <span>
               <a
                 target="blank"
-                href="https://github.com/HongMuchang/Vue-Trello"
+                href="https://muchan-trello.netlify.app/"
                 className="icon fa-link blue"
               >
                 [Trello風todoリスト]
+                <a
+                  target="blank"
+                  href="https://github.com/HongMuchang/Vue-Trello"
+                  className="icon fa-github-square githubs"
+                ></a>
               </a>
             </span>
           </h3>
@@ -71,8 +81,10 @@ class Main extends React.Component {
               <img src={Trello} alt="" className="box" />
             </p>
           </div>
-
-          <h3 className="work_title">[掲示板付きWebサイト]</h3>
+          {/* -------------------------------------- */}
+          <h3 className="work_title_github">
+            <span>[掲示板付きWebサイト]</span>
+          </h3>
           <div className="content">
             <p className="work_p">
               (　HTML　/　CSS　/　JS　/　PHP　/　MYSQL　/　GoogleMapAPI　)
@@ -81,17 +93,16 @@ class Main extends React.Component {
               <img src={web} alt="" className="box" />
             </p>
           </div>
-
-          <h3 className="work_title">
+          {/* -------------------------------------- */}
+          <h3 className="work_title_github">
             <span>
+              {' '}
+              [Laravelでブログ(CRUD)]
               <a
                 target="blank"
                 href="https://github.com/HongMuchang/Laravel-Blog"
-                className="icon fa-link blue"
-              >
-                {' '}
-                [Laravelでブログ(CRUD)]
-              </a>
+                className="icon fa-github-square githubs"
+              ></a>
             </span>
           </h3>
           <div className="content">
@@ -100,16 +111,15 @@ class Main extends React.Component {
               <img src={blog} alt="" className="box" />
             </p>
           </div>
-
-          <h3 className="work_title">
+          {/* -------------------------------------- */}
+          <h3 className="work_title_github">
             <span>
+              [図書管理システム]
               <a
                 target="blank"
                 href="https://github.com/HongMuchang/Book-management-system"
-                className="icon fa-link blue"
-              >
-                [図書管理システム]
-              </a>
+                className="icon fa-github-square githubs"
+              ></a>
             </span>
           </h3>
           <div className="content">
@@ -118,16 +128,15 @@ class Main extends React.Component {
               <img src={book} alt="" className="box" />
             </p>
           </div>
-
-          <h3 className="work_title">
+          {/* -------------------------------------- */}
+          <h3 className="work_title_github">
             <span>
+              [天気APIで世界天気を取得]
               <a
                 target="blank"
                 href="https://github.com/HongMuchang/Weather-API"
-                className="icon fa-link blue"
-              >
-                [天気APIで世界天気を取得]
-              </a>
+                className="icon fa-github-square githubs"
+              ></a>
             </span>
           </h3>
           <div className="content">
@@ -138,7 +147,7 @@ class Main extends React.Component {
               <img src={tenki} alt="" className="box" />
             </p>
           </div>
-
+          {/* -------------------------------------- */}
           {close}
         </article>
 
@@ -161,18 +170,16 @@ class Main extends React.Component {
                 <br />
                 関西出身のバイリンガル専門学生。
                 <br />
-                現在はフロントエンドを目指してます！！
+                現在はフロントエンドエンジニアを目指してます！！
               </p>
 
               <h3 className="content_title">SKILLS</h3>
               <p className="border">
                 言語:HTML、CSS、PHP、MySQL、Javascript
                 <br />
-                クラウド:AWS、Docker などを勉強中。
-                <br />
                 最近はクラウド周りの勉強をしつつ、
                 <br />
-                JSのフレームワークやLaravelを独学で勉強中です。
+                ReactやVue、Laravelを独学で勉強中です。
               </p>
               <h3 className="content_title">Award</h3>
 

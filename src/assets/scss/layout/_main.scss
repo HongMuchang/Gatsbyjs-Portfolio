@@ -79,8 +79,21 @@
 			margin-top: 6%;
 		}
 
+		//githubがあるやつ
+		.work_title_github {
+			text-align: center;
+			padding-left: 20px;
+		}
+
+		//githubがないやつやつ
 		.work_title {
 			text-align: center;
+		}
+
+		.githubs {
+			font-size: 18px;
+			padding-left: 7px;
+			color: lemonchiffon;
 		}
 
 		.work_p {
@@ -107,9 +120,11 @@
 			padding: initial;
 		}
 
+
 		.blue {
 			color: skyblue;
 		}
+
 
 		.close {
 			display: block;

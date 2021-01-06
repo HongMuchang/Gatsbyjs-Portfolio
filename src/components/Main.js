@@ -7,6 +7,8 @@ import tenki from '../images/tenki.png'
 import blog from '../images/blog.png'
 import Trello from '../images/Trello.png'
 import API from '../images/unsplashAPI.png'
+import Pokemon from '../images/pokemon.png'
+import NextBlog from '../images/Next_Website.png'
 
 class Main extends React.Component {
   render() {
@@ -33,6 +35,57 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+
+           {/* -------------------------------------- */}
+           <h3 className="work_title_github">
+            <span>
+              <a
+                target="blank"
+                href="https://next-website-tau.vercel.app/"
+                className="icon fa-link blue"
+              >
+                [Next_Website]
+                <a
+                  target="blank"
+                  href="https://github.com/HongMuchang/Next_website"
+                  className="icon fa-github-square githubs"
+                ></a>
+              </a>
+            </span>
+          </h3>
+          <div className="content">
+            <p className="work_p">(　Next　/　Tailwind　/　JsonAPI　/　SSG　/　Dynamic route　)</p>
+            <p className="work_img">
+              <img src={NextBlog} alt="" className="box" />
+            </p>
+          </div>
+          {/* -------------------------------------- */}
+
+          {/* -------------------------------------- */}
+          <h3 className="work_title_github">
+            <span>
+              <a
+                target="blank"
+                href="https://github.com/HongMuchang/Unsplash-image-search-app"
+                className="icon"
+              >
+                [ポケモン図鑑]
+                <a
+                  target="blank"
+                  href="https://github.com/HongMuchang/Pokemon"
+                  className="icon fa-github-square githubs"
+                ></a>
+              </a>
+            </span>
+          </h3>
+          <div className="content">
+            <p className="work_p">(　Next.js　/　Tailwind.css　/　PokemonAPI　)</p>
+            <p className="work_img">
+              <img src={Pokemon} alt="" className="box" />
+            </p>
+          </div>
+          {/* -------------------------------------- */}
+
           {/* -------------------------------------- */}
           <h3 className="work_title_github">
             <span>
@@ -44,7 +97,7 @@ class Main extends React.Component {
                 [画像検索アプリ]
                 <a
                   target="blank"
-                  href="https://github.com/HongMuchang"
+                  href="https://github.com/HongMuchang/Unsplash-image-search-app"
                   className="icon fa-github-square githubs"
                 ></a>
               </a>
